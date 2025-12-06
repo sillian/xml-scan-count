@@ -92,8 +92,8 @@ const Index = () => {
       <header className="bg-card border-b border-border sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <img src={logo} alt="BG SoftTech" className="h-12" />
+            <div className="flex items-center justify-center flex-1">
+              <img src={logo} alt="BG SoftTech" className="h-16" />
             </div>
 
             {invoiceInfo && (
